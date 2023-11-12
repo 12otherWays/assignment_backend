@@ -8,7 +8,7 @@ dotenv.config({ path: "./config.env" });
 connectDB();
 
 //server script
-const port = 3050;
+const port = 3051;
 app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
